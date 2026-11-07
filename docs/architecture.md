@@ -11,7 +11,7 @@ Aplikacja ma trzy warstwy z jednym kierunkiem zależności: **prezentacja → lo
 flowchart TD
     subgraph UI["Warstwa prezentacji (src/app, src/components)"]
         Screens["Ekrany Expo Router<br/>lista, szczegóły, formularze"]
-        Components["Komponenty wielokrotnego użytku<br/>FormField, EmptyState, ErrorMessage"]
+        Components["Komponenty wielokrotnego użytku<br/>FormField, OptionGroup, EmptyState, MessageBanner"]
     end
 
     subgraph State["Stan współdzielony (src/state)"]
