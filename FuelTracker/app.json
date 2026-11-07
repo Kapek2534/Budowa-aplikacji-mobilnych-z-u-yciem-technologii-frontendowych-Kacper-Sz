@@ -3,6 +3,7 @@
     "name": "FuelTracker",
     "slug": "FuelTracker",
     "version": "1.0.0",
+    "scheme": "fueltracker",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
